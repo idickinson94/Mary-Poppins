@@ -1,22 +1,51 @@
 .hero {
-  height: 65vh;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(/story.jpg) center no-repeat;
+  height: 55vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(/story.jpg);
   background-size: cover;
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  h4 {
+    margin-bottom: -1.5rem;
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
 
   &::before {
     content: "";
     background-image: url(/waves.svg);
     background-size: cover;
-    height: 20vh;
+    height: 7vh;
+    //increase height as screen size increases
     width: 100%;
     overflow: hidden;
     background-repeat: repeat-x;
     position: absolute;
-    top: -10vh;
+    top: 0;
     left: 0;
-    z-index: -1;
+  }
+
+  &::after {
+    content: "";
+    background-image: url(/waves.svg);
+    background-size: cover;
+    height: 7vh;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+
+    transform: rotate(180deg);
   }
 }
