@@ -1,0 +1,46 @@
+.buildings {
+  height: 35vh;
+  width: 100%;
+
+  background: url(/buildings.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+}
+
+.marypoppins {
+  position: absolute;
+  bottom: 100px;
+  right: 575px;
+
+  animation: poppinsup 2s ease-in-out infinite alternate-reverse;
+}
+
+.clouds {
+  position: absolute;
+  bottom: 100px;
+  right: 650px;
+  animation: poppins 1.5s ease-in-out infinite alternate-reverse;
+}
+
+.container {
+  position: relative;
+}
+
+@keyframes poppins {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes poppinsup {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
