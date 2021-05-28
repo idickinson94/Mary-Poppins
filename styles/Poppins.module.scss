@@ -1,26 +1,54 @@
 .buildings {
   height: 35vh;
   width: 100%;
-
+  overflow: hidden;
   background: url(/buildings.png);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-size: fit;
   position: relative;
+  margin-top: 5vh;
+
+  @media (min-width: 1000px) {
+    background-size: cover;
+    height: 30vh;
+  }
+
+  @media (min-width: 1300px) {
+    height: 40vh;
+    margin-top: 5rem;
+  }
 }
 
 .marypoppins {
   position: absolute;
-  bottom: 100px;
-  right: 575px;
+  top: 0;
+  right: 5vw;
 
   animation: poppinsup 2s ease-in-out infinite alternate-reverse;
+
+  @media (min-width: 700px) {
+    top: 5vh;
+    right: 10px;
+  }
+
+  @media (min-width: 1000px) {
+    right: 100px;
+  }
+
+  @media (min-width: 1500px) {
+    right: 400px;
+  }
 }
 
 .clouds {
   position: absolute;
-  bottom: 100px;
-  right: 650px;
+  top: 5vh;
+  left: 10vw;
   animation: poppins 1.5s ease-in-out infinite alternate-reverse;
+
+  @media (min-width: 1000px) {
+    left: 70vw;
+  }
 }
 
 .container {

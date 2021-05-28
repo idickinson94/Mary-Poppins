@@ -11,13 +11,38 @@
   align-items: center;
   color: white;
 
+  @media (min-width: 700px) {
+    height: 75vh;
+  }
+
+  @media (min-width: 900px) {
+    height: 85vh;
+  }
+
+  @media (min-width: 1300px) {
+    height: 95vh;
+    margin-top: -4rem;
+  }
+
+  @media (min-width: 1600px) {
+    margin-top: -7rem;
+  }
+
   h4 {
     margin-bottom: -1.5rem;
     font-size: 0.9rem;
+
+    @media (min-width: 900px) {
+      font-size: 1.2rem;
+    }
   }
 
   h1 {
     font-size: 2rem;
+
+    @media (min-width: 900px) {
+      font-size: 2.8rem;
+    }
   }
 
   &::before {
@@ -32,6 +57,18 @@
     position: absolute;
     top: 0;
     left: 0;
+
+    @media (min-width: 700px) {
+      height: 10vh;
+    }
+
+    @media (min-width: 900px) {
+      height: 15vh;
+    }
+
+    @media (min-width: 1400px) {
+      height: 20vh;
+    }
   }
 
   &::after {
@@ -45,7 +82,72 @@
     position: absolute;
     bottom: -1px;
     left: 0;
-
+    z-index: 100;
     transform: rotate(180deg);
+
+    @media (min-width: 700px) {
+      height: 10vh;
+    }
+
+    @media (min-width: 900px) {
+      height: 15vh;
+    }
+
+    @media (min-width: 1400px) {
+      height: 20vh;
+    }
+  }
+}
+
+.info {
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 700px) {
+    width: 75vw;
+  }
+
+  @media (min-width: 900px) {
+    margin-top: -2rem;
+
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    width: 45vw;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 999;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+
+    @media (min-width: 700px) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    width: 90vw;
+    color: #888888;
+    text-align: center;
+
+    @media (min-width: 700px) {
+      width: 95%;
+    }
+
+    @media (min-width: 900px) {
+      margin-bottom: 2rem;
+    }
   }
 }

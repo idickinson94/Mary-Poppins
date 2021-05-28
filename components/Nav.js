@@ -52,7 +52,7 @@ const Navbar = ({ navOpen, setNavOpen }) => {
               </a>
             </Link>
           </div>
-
+          {/*
           <div className={styles.mobile_nav}>
             <Image
               className={styles.toggle}
@@ -64,6 +64,7 @@ const Navbar = ({ navOpen, setNavOpen }) => {
 
             {navOpen ? <NavList /> : ""}
           </div>
+*/}
         </div>
       </div>
     </div>

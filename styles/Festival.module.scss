@@ -1,0 +1,139 @@
+.FestivalDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+
+  @media (min-width: 700px) {
+    width: 85vw;
+
+    margin: auto;
+  }
+
+  @media (min-width: 1000px) {
+    width: 65vw;
+    padding: 2rem 0;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 1500px) {
+    padding: 4rem 0;
+  }
+
+  @media (min-width: 1800px) {
+    height: 50vh;
+  }
+
+  .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @media (min-width: 700px) {
+      flex-direction: row;
+      text-align: center;
+    }
+
+    @media (min-width: 1000px) {
+      padding: 2rem 0;
+    }
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+
+    p {
+      color: #888888;
+      padding: 0 1rem;
+    }
+  }
+
+  button {
+    margin: 2rem 0;
+  }
+}
+
+.prog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0;
+  background: #f4f4f4;
+  position: relative;
+
+  @media (min-width: 700px) {
+    margin-top: 10vh;
+    padding: 2rem 0;
+  }
+
+  @media (min-width: 1300px) {
+    padding: 4rem 0;
+  }
+
+  .progCard {
+    background: white;
+    width: 90%;
+    margin: 2rem 0;
+
+    .img {
+      height: 25vh;
+      background: url(/dressedup.jpg) center;
+      background-size: cover;
+    }
+
+    @media (min-width: 700px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      width: 70vw;
+
+      &::before {
+        content: "";
+        background-image: url(/greywave.svg);
+        height: 5vh;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: -5vh;
+        left: 0;
+        z-index: 100;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      &::after {
+        content: "";
+        background-image: url(/greywave.svg);
+        height: 5vh;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        bottom: -5vh;
+        left: 0;
+        z-index: 100;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: rotate(180deg);
+      }
+
+      .img {
+        height: 40vh;
+        width: 50%;
+      }
+
+      .text {
+        height: 40vh;
+        width: 50%;
+        padding: 1rem;
+      }
+    }
+  }
+}

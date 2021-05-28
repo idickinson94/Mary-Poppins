@@ -1,4 +1,5 @@
 import styles from "../styles/Poppins.module.scss";
+
 const AnimatedPoppins = () => {
   return (
     <div className={styles.container}>

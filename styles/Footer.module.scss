@@ -1,0 +1,40 @@
+.footer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+
+  ul {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    margin-left: -2rem;
+
+    li {
+      color: #888888;
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+
+  @media (min-width: 700px) {
+    width: 45vw;
+    margin: auto;
+
+    ul {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    padding-top: 3rem;
+    ul {
+      width: 75%;
+    }
+  }
+}

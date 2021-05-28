@@ -1,0 +1,68 @@
+.container {
+  color: #888888;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.6em;
+  line-height: 1em;
+  position: relative;
+
+  p {
+    width: 85%;
+    margin: 0 auto;
+    padding: 3rem 0 2.5rem 0;
+    text-align: center;
+
+    @media (min-width: 700px) {
+      width: 100%;
+
+      font-size: 0.6rem;
+    }
+
+    @media (min-width: 1000px) {
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+      font-size: 0.8rem;
+    }
+  }
+
+  &::before {
+    content: "";
+    margin: 0;
+    padding: 0;
+    background-image: url(/greywobbleline.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3vh;
+    width: 100%;
+
+    @media (min-width: 700px) {
+      background-size: cover;
+    }
+
+    @media (min-width: 1000px) {
+      height: 5vh;
+    }
+  }
+
+  &::after {
+    content: "";
+    margin: 0;
+    padding: 0;
+    background-image: url(/greywobbleline.svg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3vh;
+    width: 100%;
+
+    @media (min-width: 700px) {
+      background-size: cover;
+    }
+
+    @media (min-width: 1000px) {
+      height: 5vh;
+    }
+  }
+}

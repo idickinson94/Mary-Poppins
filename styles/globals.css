@@ -30,3 +30,17 @@ h5 {
   font-style: normal;
   font-weight: bold;
 }
+
+h2 {
+  color: #ed1b50;
+  text-transform: uppercase;
+}
+
+button {
+  border: none;
+  background: #ed1b50;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
