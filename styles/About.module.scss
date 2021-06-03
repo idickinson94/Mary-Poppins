@@ -1,0 +1,150 @@
+.content {
+  width: 90vw;
+  margin: 0 auto;
+  padding-top: 1rem;
+
+  h4 {
+    font-family: "Averia Serif Libre", cursive;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+
+  .marys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .right {
+      height: 50vh;
+      min-width: 90vw;
+      background: url(/Proud_Marys.jpg) center;
+      background-size: cover;
+      width: auto;
+    }
+  }
+
+  .travers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .right {
+      height: 50vh;
+      min-width: 90vw;
+      background: url(/PLTravers.jpg) center;
+      background-size: cover;
+      width: auto;
+    }
+  }
+
+  @media (min-width: 800px) {
+    width: 80vw;
+
+    .marys {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 1px;
+
+      .left {
+        width: 40vw;
+      }
+
+      .right {
+        height: 40vh;
+        max-width: 39vw;
+        min-width: 38vw;
+      }
+    }
+
+    .travers {
+      flex-direction: row-reverse;
+
+      justify-content: space-between;
+      margin-bottom: 1px;
+
+      .left {
+        width: 40vw;
+      }
+
+      .right {
+        height: 50vh;
+        max-width: 39vw;
+        min-width: 38vw;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    width: 70vw;
+    padding-top: 3rem;
+
+    .marys {
+      margin-top: 10rem;
+
+      .left {
+        margin-top: -15vh;
+        margin-right: -15vw;
+        max-width: 40vw;
+        border: 3px solid #ed1b50;
+        background-color: white;
+        z-index: 999;
+        padding: 1rem 2rem;
+      }
+
+      .right {
+        background-position: top;
+        width: 30vw;
+      }
+    }
+
+    .travers {
+      margin-top: 10rem;
+
+      .left {
+        margin-top: -15vh;
+        margin-left: -15vw;
+        max-width: 40vw;
+        border: 3px solid #ed1b50;
+        background-color: white;
+        z-index: 999;
+        padding: 1rem 2rem;
+      }
+
+      .right {
+        background-position: center;
+        width: 30vw;
+      }
+    }
+  }
+
+  @media (min-width: 1600px) {
+    padding-top: 5rem;
+    width: 65vw;
+
+    .marys {
+      max-width: 65vw;
+      margin: auto;
+      padding-top: 10rem;
+
+      .left {
+        margin-top: -25vh;
+        margin-right: -10vw;
+        max-width: 30vw;
+      }
+    }
+
+    .travers {
+      max-width: 65vw;
+      margin: auto;
+      padding-top: 10rem;
+
+      .left {
+        margin-top: -30vh;
+        margin-left: -15vw;
+        max-width: 32vw;
+      }
+    }
+  }
+}

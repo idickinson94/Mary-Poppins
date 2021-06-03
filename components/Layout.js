@@ -1,6 +1,7 @@
 import Footer from "./Footer";
 import Navbar from "./Nav";
 import { useState, useEffect } from "react";
+import AnimatedPoppins from "./buildings";
 
 const Layout = ({ children }) => {
   const [navOpen, setNavOpen] = useState(false);
@@ -13,6 +14,7 @@ const Layout = ({ children }) => {
     <div className="content">
       <Navbar navOpen={navOpen} setNavOpen={setNavOpen} />
       {children}
+      <AnimatedPoppins />
       <Footer />
     </div>
   );

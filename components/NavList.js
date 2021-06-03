@@ -23,6 +23,12 @@ const NavList = () => {
           </a>
         </Link>
 
+        <Link href="/visit">
+          <a>
+            <li>Visit Us</li>
+          </a>
+        </Link>
+
         <Link href="/contact">
           <a>
             <li>Contact Us</li>

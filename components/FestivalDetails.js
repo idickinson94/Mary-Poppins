@@ -22,11 +22,11 @@ const FestivalDetails = () => {
           <p>Street parking throught the surrounding CDB.</p>
         </div>
       </div>
-      {/*<Link href="/program">
-  <a>*/}
-      <button>Full program coming soon</button>
-      {/* </a>
-       </Link> */}
+      <Link href="/program">
+        <a>
+          <button>Full program coming soon</button>
+        </a>
+      </Link>
     </div>
   );
 };

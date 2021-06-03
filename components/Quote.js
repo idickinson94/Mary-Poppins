@@ -1,4 +1,5 @@
 import styles from "../styles/Quote.module.scss";
+import Glide from "@glidejs/glide";
 
 const Quote = ({ text }) => {
   return (

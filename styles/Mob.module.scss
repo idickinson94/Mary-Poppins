@@ -6,32 +6,46 @@
   position: absolute;
   top: 10;
   right: 0;
-  background-color: #3f3531;
-  height: 50vh;
+  background-color: #f4f4f4;
+  height: 60vh;
   width: 90%;
   z-index: 99;
-  margin-top: 50px;
+  margin-top: 30px;
+  border: 1px solid #ededed;
   overflow: hidden;
+  animation: comeIn ease-in-out 0.5s;
 
   ul {
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 100%;
 
     li {
-      padding: 0.6rem 0;
+      padding: 1rem 2rem;
     }
   }
 
   a {
-    color: white;
+    color: #333333;
+
+    font-weight: bold;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 
   @media (min-width: 700px) {
     display: none;
+  }
+}
+
+@keyframes comeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

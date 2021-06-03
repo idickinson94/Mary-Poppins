@@ -1,5 +1,11 @@
+import Hero from "../components/InnerHero";
+
 const Contact = () => {
-  return <h3>Coming soon - return home</h3>;
+  return (
+    <div className="container">
+      <Hero title="Contact Us" />
+    </div>
+  );
 };
 
 export default Contact;

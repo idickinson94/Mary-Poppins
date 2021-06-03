@@ -1,0 +1,46 @@
+.container {
+  h5,
+  h6 {
+    font-family: "Averia Serif Libre", cursive;
+  }
+
+  .program_item {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    padding-top: 2rem;
+  }
+
+  .day {
+    h5 {
+      margin: 0;
+      padding-top: 1rem;
+      font-size: 3.5rem;
+
+      span {
+        margin-left: -0.5rem;
+        font-size: 1.5rem;
+      }
+    }
+
+    h6 {
+      margin: 0;
+      padding-top: 0.3rem;
+      font-size: 1.75rem;
+    }
+  }
+
+  .item_content {
+    margin: 1rem 0;
+  }
+}
+
+@media (min-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    margin: auto;
+  }
+}

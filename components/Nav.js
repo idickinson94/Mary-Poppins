@@ -37,6 +37,12 @@ const Navbar = ({ navOpen, setNavOpen }) => {
                 </a>
               </Link>
 
+              <Link href="/visit">
+                <a>
+                  <li>Visit Us</li>
+                </a>
+              </Link>
+
               <Link href="/contact">
                 <a>
                   <li>Contact Us</li>
@@ -45,14 +51,14 @@ const Navbar = ({ navOpen, setNavOpen }) => {
             </ul>
           </nav>
 
-          <div className="logo">
+          <div className="logo" id="teq">
             <Link href="/">
               <a>
                 <Image src="/TEQ.png" width={110} height={50} alt="its live" />
               </a>
             </Link>
           </div>
-          {/*
+
           <div className={styles.mobile_nav}>
             <Image
               className={styles.toggle}
@@ -64,7 +70,6 @@ const Navbar = ({ navOpen, setNavOpen }) => {
 
             {navOpen ? <NavList /> : ""}
           </div>
-*/}
         </div>
       </div>
     </div>
