@@ -6,9 +6,15 @@ const Contact = () => {
     <div className={styles.container}>
       <Hero title="Contact Us" />
 
-      <form className={styles.form_container} method="POST" data-netlify="true">
+      <form
+        className={styles.form_container}
+        name="contact"
+        method="POST"
+        data-netlify="true"
+      >
         <div className={styles.name}>
           <div className={styles.p_form}>
+            <input type="hidden" name="form-name" value="contact" />
             <input type="text" id="fname" name="fname"></input>
             <label className={styles.label} for="fname">
               First name
