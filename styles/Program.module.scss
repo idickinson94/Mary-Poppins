@@ -10,6 +10,7 @@
     width: 80vw;
     margin: auto;
     padding-top: 2rem;
+    border-bottom: 1px solid;
   }
 
   .day {
@@ -39,8 +40,12 @@
 @media (min-width: 700px) {
   .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 60vw;
     margin: auto;
+
+    .program_item {
+      width: 60vw;
+    }
   }
 }

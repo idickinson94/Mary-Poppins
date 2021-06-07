@@ -23,8 +23,8 @@ const NavList = () => {
           </a>
         </Link>
 
-        <Link href="/visit">
-          <a>
+        <Link href="https://www.visitfrasercoast.com/plan-your-visit/">
+          <a target="_blank">
             <li>Visit Us</li>
           </a>
         </Link>
