@@ -16,6 +16,12 @@ export default function Home() {
       <div className={styles.hero}>
         <h4>Make the impossible possible at the</h4>
         <h1>Mary Poppins Festival</h1>
+        <video
+          src="https://player.vimeo.com/external/560291138.hd.mp4?s=4fbf4658b69809bca41070f788a8ee995be31bc8&profile_id=174"
+          muted
+          loop
+          autoPlay
+        ></video>
       </div>
 
       <div className={styles.info}>

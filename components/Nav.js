@@ -63,7 +63,7 @@ const Navbar = ({ navOpen, setNavOpen }) => {
             <Image
               className={styles.toggle}
               onClick={(e) => setNavOpen(!navOpen)}
-              src={navOpen ? "/close.svg" : "/nav-toggle.svg"}
+              src="/nav-toggle.png"
               width={30}
               height={30}
             />
