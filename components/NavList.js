@@ -4,7 +4,7 @@ import styles from "../styles/Mob.module.scss";
 const NavList = () => {
   return (
     <div className={styles.mob}>
-      <ul>
+      <ol>
         <Link href="/">
           <a>
             <li>home</li>
@@ -34,7 +34,7 @@ const NavList = () => {
             <li>Contact Us</li>
           </a>
         </Link>
-      </ul>
+      </ol>
     </div>
   );
 };
