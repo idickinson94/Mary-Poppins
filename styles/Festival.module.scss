@@ -54,6 +54,16 @@
     }
   }
 
+  .btn {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+    img {
+      transform: rotate();
+    }
+  }
+
   button {
     margin: 2rem 0;
   }
