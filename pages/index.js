@@ -12,6 +12,20 @@ export default function Home() {
       <Head>
         <title>Mary Poppins Festival 2021 | Maryborough Parklands</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="Mary Poppins Festival | 2021" />
+        <meta
+          property="og:description"
+          content="This year’s Festival presents a four day program of storytelling for
+        all ages through all art forms. From music concerts backstage and
+        onstage at the Brolga to pop up performances in the Bond Store
+        Basement. "
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://marypoppinsfestival.com.au/" />
+        <meta
+          property="og:image"
+          content="https://phiilu.com/images/og/840e64ab9334b9d5d555c85e0d073179.png"
+        />
       </Head>
       <div className={styles.hero}>
         <h4>Make the impossible possible at the</h4>
