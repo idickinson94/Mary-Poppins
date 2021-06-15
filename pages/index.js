@@ -24,7 +24,7 @@ export default function Home() {
         <meta property="og:url" content="https://marypoppinsfestival.com.au/" />
         <meta
           property="og:image"
-          content="https://phiilu.com/images/og/840e64ab9334b9d5d555c85e0d073179.png"
+          content="https://marypoppinsfestival.com.au/dressedup.jpg"
         />
       </Head>
       <div className={styles.hero}>
