@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/InnerHero";
 import styles from "../styles/Program.module.scss";
+import Link from "next/link";
 
 const Program = () => {
   return (
@@ -23,7 +24,19 @@ const Program = () => {
             <p>Maryborough Markets, Maryborough CBD, 7am - 12 noon</p>
             <p>Basket Weaving Workshop Gatakers Artspace</p>
             <p>Gatakers Artspace, Gatakers Artspace, 9.30am - 3:30pm</p>
-            <p>Story Bank, Story Bank Museum, 9:30am - 3:30pm</p>
+            <p>
+              Story Bank, Story Bank Museum, 9:30am - 3:30pm | Bookings
+              essential, book{" "}
+              <Link href="https://storybank.ourfrasercoast.com.au/">
+                <a>here.</a>
+              </Link>{" "}
+            </p>
+            <p>
+              Bond Store, Bond Store, 9:30 - 3:30pm | Bookings essential, book{" "}
+              <Link href="https://portside.ourfrasercoast.com.au/bond-store/bond-store-1 ">
+                <a>here.</a>
+              </Link>{" "}
+            </p>
           </div>
         </div>
 
@@ -35,8 +48,19 @@ const Program = () => {
             <h6>Friday</h6>
           </div>
           <div className={styles.item_content}>
-            <p>Bond Store, Bond Store, 9:30 - 3:30pm</p>
-            <p>Story Bank, Story Bank Museum, 9:30 - 3:30pm</p>
+            <p>
+              Bond Store, Bond Store, 9:30 - 3:30pm | Bookings essential, book{" "}
+              <Link href="https://portside.ourfrasercoast.com.au/bond-store/bond-store-1 ">
+                <a>here.</a>
+              </Link>{" "}
+            </p>
+            <p>
+              Story Bank, Story Bank Museum, 9:30 - 3:30pm | Bookings essential,
+              book{" "}
+              <Link href="https://storybank.ourfrasercoast.com.au/">
+                <a>here.</a>
+              </Link>{" "}
+            </p>
             <p>Gatakers Artspace, Gatakers Artspace, 9.30am - 3:30pm</p>
           </div>
         </div>
@@ -51,9 +75,26 @@ const Program = () => {
           <div className={styles.item_content}>
             <p>Gatakers Artspace, Gatakers Artspace, 9.30am - 4pm</p>
             <p>Recycled Materials Workshop, Gatakers Artspace, 1pm - 4pm</p>
-            <p>Charlotte's Web, Brolga Theatre, 10:30am - 11:25am</p>
-            <p>Bond Store, Bond Store, 9:30 - 2pm</p>
-            <p>Story Bank, Story Bank Museum, 9:30 - 2pm</p>
+            <p>
+              Charlotte's Web, Brolga Theatre, 10:30am - 11:25am | Bookings
+              essential, book{" "}
+              <Link href="https://brolga.ourfrasercoast.com.au/events/event/421/charlotte-s-web ">
+                <a>here.</a>
+              </Link>{" "}
+            </p>
+            <p>
+              Bond Store, Bond Store, 9:30 - 2pm | Bookings essential, book{" "}
+              <Link href="https://portside.ourfrasercoast.com.au/bond-store/bond-store-1">
+                <a>here.</a>
+              </Link>
+            </p>
+            <p>
+              Story Bank, Story Bank Museum, 9:30 - 2pm | Bookings essential,
+              book{" "}
+              <Link href="https://storybank.ourfrasercoast.com.au/">
+                <a>here.</a>
+              </Link>
+            </p>
           </div>
         </div>
 
@@ -71,9 +112,23 @@ const Program = () => {
             </p>
             <p>
               The Ten Tenors - Celebrating 25 Years Brolga Theatre 3pm - 5:15pm
+              | Bookings essential, book{" "}
+              <Link href="https://brolga.ourfrasercoast.com.au/events/event/337/the-ten-tenors-celebrating-25-years">
+                <a>here.</a>
+              </Link>
             </p>
-            <p>Story Bank Story Bank Museum 9:30 - 2pm</p>
-            <p>Bond Store Bond Store 9:30 - 2pm</p>
+            <p>
+              Story Bank Story Bank Museum 9:30 - 2pm | Bookings essential, book{" "}
+              <Link href="https://storybank.ourfrasercoast.com.au/">
+                <a>here.</a>
+              </Link>
+            </p>
+            <p>
+              Bond Store Bond Store 9:30 - 2pm | Bookings essential, book{" "}
+              <Link href="https://portside.ourfrasercoast.com.au/bond-store/bond-store-1">
+                <a>here.</a>
+              </Link>
+            </p>
             <p>Maryborough Military & Colonial Museum 9:30am - 4pm $2 Entry</p>
             <p>
               Mary Ann Steam Train Macaliser Station From 10am $3 - $12 Entry

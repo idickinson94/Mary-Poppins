@@ -27,13 +27,19 @@ const Navbar = ({ navOpen, setNavOpen }) => {
 
               <Link href="/about">
                 <a>
-                  <li>about</li>
+                  <li>About</li>
                 </a>
               </Link>
 
               <Link href="/program">
                 <a>
                   <li>Program</li>
+                </a>
+              </Link>
+
+              <Link href="/competitions">
+                <a>
+                  <li>Competitions</li>
                 </a>
               </Link>
 

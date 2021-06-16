@@ -19,7 +19,7 @@ const FestivalProgram = () => {
 
       <Link href="/program">
         <a>
-          <button>Full program coming soon</button>
+          <button>VIEW PROGRAM</button>
         </a>
       </Link>
     </div>

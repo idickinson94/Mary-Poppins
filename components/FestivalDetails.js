@@ -24,7 +24,7 @@ const FestivalDetails = () => {
       </div>
       <Link href="/program">
         <a>
-          <button>Full program coming soon</button>
+          <button>View Program</button>
         </a>
       </Link>
     </div>
