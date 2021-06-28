@@ -30,9 +30,10 @@ const Program = () => {
                 <a>here.</a>
               </Link>{" "}
             </p>
+            <p>Bond Store, Bond Store, 9:30 - 3:30pm</p>
             <p>
-              Bond Store, Bond Store, 9:30 - 3:30pm | Bookings essential, book{" "}
-              <Link href="https://portside.ourfrasercoast.com.au/bond-store/bond-store-1 ">
+              Practically Perfect Decorated Upmbella’s, Story Bank Garden | book{" "}
+              <Link href="https://frasercoast.rezdy.com/448782/practically-perfected-decorated-umbrellas#">
                 <a>here.</a>
               </Link>{" "}
             </p>
@@ -47,12 +48,7 @@ const Program = () => {
             <h6>Friday 2nd July</h6>
           </div>
           <div className={styles.item_content}>
-            <p>
-              Bond Store, Bond Store, 9:30 - 3:30pm | Bookings essential, book{" "}
-              <Link href="https://portside.ourfrasercoast.com.au/bond-store/bond-store-1 ">
-                <a>here.</a>
-              </Link>{" "}
-            </p>
+            <p>Bond Store, Bond Store, 9:30 - 3:30pm</p>
             <p>
               Story Bank, Story Bank Museum, 9:30 - 3:30pm | Bookings essential,
               book{" "}
@@ -80,7 +76,12 @@ const Program = () => {
             <h6>Saturday 3rd of July</h6>
           </div>
           <div className={styles.item_content}>
-            <p>Gatakers Artspace, Gatakers Artspace, 9.30am - 4pm</p>
+            <p>
+              Gatakers Artspace, Gatakers Artspace, 9.30am - 4pm | register{" "}
+              <Link href="https://storybank.ourfrasercoast.com.au/events/event/460/upcycled-clothing-workshop-with-nancy-brown ">
+                <a>here.</a>
+              </Link>
+            </p>
             <p>
               Recycled Materials Workshop, Gatakers Artspace, 1pm - 4pm | Gold
               Coin / $5
@@ -154,8 +155,8 @@ const Program = () => {
             <p>Bre Ferguson | Solo Mat| 11:10am- 11:55am</p>
             <p>Marsupial Madness Queens Park | 11:30am- 12:00pm</p>
             <p>Susan Zela Bissett | Book Time | 11:30am- 12:15pm</p>
-            <p>Chris Collins Mary River Parklands | 11:30am- 12:15pm</p>
-            <p>Magic Workshop | 11:30am- 12:15pm</p>
+
+            <p>Magic Workshop | 1pm – 1:45pm </p>
             <p>Grumps & Roses | Rotunda Stage | 12:10pm- 12:55pm</p>
             <p>The Grand Parade | 12:30pm- 1pm</p>
             <p>
@@ -163,14 +164,16 @@ const Program = () => {
               1.30pm
             </p>
             <p>Fashion in the Park Main Stage | 1:30pm - 1:45pm</p>
-            <p>Chris Collins | Book Time | 1pm - 1:45pm </p>
+            <p>Chris Collins | Book Time | 2:05pm - 2:50pm </p>
             <p>
               Teddy Bear Picnic in Wonderland Show Queens Park | 1:10pm- 1:40pm
             </p>
             <p>Peter Sajko | Solo Mat | 1:15pm- 2:00pm</p>
             <p>Mary Poppins Trivia Band Hall | 1:30pm- 2:15pm</p>
             <p>Science Show | Rotunda Stage | 2pm- 2:45pm</p>
-            <p>Marc Bright (Show) Main Stage | 2pm- 2:30pm</p>
+            <p>
+              Marc Bright (Show) Main Stage | 11:30am – 11:50am & 2pm- 2:30pm
+            </p>
 
             <p>Charlene Walters | Solo Mat | 2:10pm- 2:55pm</p>
             <p>Excelsior Band Queens Park | 3pm- 3:45pm</p>
@@ -203,17 +206,29 @@ const Program = () => {
               Tasting of Ports & Liqueurs - A tipple of Mary's Punch | Bond
               Store | All Day{" "}
             </p>
-            <p>Storytime | Bond Store </p>
+            <p>
+              Storytime | Bond Store, 11am & 1pm | Bookings essential, book{" "}
+              <Link href="https://frasercoast.rezdy.com/449593/kiddywinks-puppet-theatre-at-the-bond-store-basement">
+                <a>here.</a>
+              </Link>{" "}
+            </p>
             <p>Story Bank Garden & Cottage | Story Bank | All Day | Free</p>
             <p>
               Storytelling in the Yarning Circle - Auntie Karen sharing stories
               from Legends of Moonie Jarl | Story Bank | 10am - 10:30am | 11am -
-              11:30am | Inc in Story Bank Admission
+              11:30am | Inc in Story Bank Admission | book sold seperately{" "}
+              <Link href="https://frasercoast.rezdy.com/448779/storytelling-in-the-yarning-circle#">
+                <a>here.</a>
+              </Link>{" "}
             </p>
 
             <p>
               Storytelling with Jane in the Theatrette - Sing Song & Story |
-              Story Bank | 12noon - 12:30pm | Inc in Story Bank Admission
+              Story Bank | 12noon - 12:30pm | Inc in Story Bank Admission |
+              Bookings essential, book{" "}
+              <Link href="https://storybank.ourfrasercoast.com.au/events/event/466/sing-song-and-storytelling-with-nanny-elsie-buttons">
+                <a>here.</a>
+              </Link>
             </p>
 
             <p>
