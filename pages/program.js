@@ -18,10 +18,10 @@ const Program = () => {
             <h5>
               Day <span>01</span>
             </h5>
-            <h6>Thursday 1st of July</h6>
+            <h6></h6>
           </div>
           <div className={styles.item_content}>
-            <p>Maryborough Markets, Maryborough CBD, 7am - 12 noon</p>
+            {/* <p>Maryborough Markets, Maryborough CBD, 7am - 12 noon</p>
             <p>Gatakers Artspace, Gatakers Artspace, 9.30am - 3:30pm</p>
             <p>
               Story Bank, Story Bank Museum, 9:30am - 3:30pm | Bookings
@@ -36,7 +36,7 @@ const Program = () => {
               <Link href="https://frasercoast.rezdy.com/448782/practically-perfected-decorated-umbrellas#">
                 <a>here.</a>
               </Link>{" "}
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -45,10 +45,10 @@ const Program = () => {
             <h5>
               Day <span>02</span>
             </h5>
-            <h6>Friday 2nd July</h6>
+            <h6></h6>
           </div>
           <div className={styles.item_content}>
-            <p>Bond Store, Bond Store, 9:30 - 3:30pm</p>
+            {/* <p>Bond Store, Bond Store, 9:30 - 3:30pm</p>
             <p>
               Story Bank, Story Bank Museum, 9:30 - 3:30pm | Bookings essential,
               book{" "}
@@ -64,7 +64,7 @@ const Program = () => {
               <Link href="https://brolgat.sales.ticketsearch.com/sales/salesevent/12793">
                 <a>here.</a>
               </Link>{" "}
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -73,10 +73,10 @@ const Program = () => {
             <h5>
               Day <span>03</span>
             </h5>
-            <h6>Saturday 3rd of July</h6>
+            <h6></h6>
           </div>
           <div className={styles.item_content}>
-            <p>
+            {/* <p>
               Gatakers Artspace, Gatakers Artspace, 9.30am - 4pm | register{" "}
               <Link href="https://storybank.ourfrasercoast.com.au/events/event/460/upcycled-clothing-workshop-with-nancy-brown ">
                 <a>here.</a>
@@ -100,7 +100,7 @@ const Program = () => {
               <Link href="https://storybank.ourfrasercoast.com.au/">
                 <a>here.</a>
               </Link>
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -109,10 +109,10 @@ const Program = () => {
             <h5>
               Day <span>04</span>
             </h5>
-            <h6>Sunday 4th of July</h6>
+            <h6></h6>
           </div>
           <div className={styles.item_content}>
-            <p>Gatakers Artspace Gatakers Artspace 9.30am - 4pm</p>
+            {/* <p>Gatakers Artspace Gatakers Artspace 9.30am - 4pm</p>
             <p>
               Recycled Materials Workshop Gatakers Artspace 10am - 12 noon & 1pm
               - 4pm | Gold Coin
@@ -239,7 +239,7 @@ const Program = () => {
             <p>Rock Art | Story Bank Garden | All Day | FREE</p>
             <p>
               Moira Hansen playing the Calliope | Story Bank deck | 11am FREE
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

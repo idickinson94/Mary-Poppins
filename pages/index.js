@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import FestivalDetails from "../components/FestivalDetails";
 import FestivalProgram from "../components/FestivalProgram";
+import Postpone from "../components/Postpone";
 import Quote from "../components/Quote";
 
 import styles from "../styles/Home.module.scss";
@@ -27,6 +28,8 @@ export default function Home() {
           content="https://marypoppinsfestival.com.au/dressedup.jpg"
         />
       </Head>
+      <Postpone />
+
       <div className={styles.hero}>
         <h4>Make the impossible possible at the</h4>
         <h1>Mary Poppins Festival</h1>
@@ -39,18 +42,6 @@ export default function Home() {
       </div>
 
       <div className={styles.info}>
-        <h3>
-          Mary Poppins Festival 2021 will be proceeding, organisers are
-          monitoring the situation closely.
-        </h3>
-
-        <p>
-          We ask that people remember to: maintain social distance, check into
-          the festival using the Check In Qld app, please do not attend if you
-          are unwell or have recently returned from overseas or a hotspot please
-          wear a mask If you have been in a restricted South East Queensland
-          area.
-        </p>
         <p>
           This year’s Festival presents a four day program of storytelling for
           all ages through all art forms. From music concerts backstage and

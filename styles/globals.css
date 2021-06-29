@@ -56,3 +56,14 @@ button:hover {
 p {
   color: #666666;
 }
+
+.postpone {
+  color: #ed1b50;
+  border: #ed1b50 2px solid;
+  border-radius: 5px;
+  width: 70vw;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 2rem;
+}
