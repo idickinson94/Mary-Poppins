@@ -9,8 +9,8 @@ const Contact = () => {
       <form
         className={styles.form_container}
         name="contact"
+        action="https://formspree.io/f/xwkaqjdb"
         method="POST"
-        data-netlify="true"
       >
         <div className={styles.name}>
           <div className={styles.p_form}>
