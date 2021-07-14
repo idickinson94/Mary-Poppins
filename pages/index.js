@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import FestivalDetails from "../components/FestivalDetails";
 import FestivalProgram from "../components/FestivalProgram";
-import Postpone from "../components/Postpone";
 import Quote from "../components/Quote";
 
 import styles from "../styles/Home.module.scss";
@@ -28,7 +27,6 @@ export default function Home() {
           content="https://marypoppinsfestival.com.au/dressedup.jpg"
         />
       </Head>
-      <Postpone />
 
       <div className={styles.hero}>
         <h4>Make the impossible possible at the</h4>
