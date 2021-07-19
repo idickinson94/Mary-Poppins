@@ -43,6 +43,12 @@ const Navbar = ({ navOpen, setNavOpen }) => {
                 </a>
               </Link>
 
+              <Link href="https://maryboroughopengardens.net/">
+                <a target="_blank">
+                  <li>Open Gardens</li>
+                </a>
+              </Link>
+
               <Link href="https://www.visitfrasercoast.com/plan-your-visit/">
                 <a target="_blank">
                   <li>Visit Us</li>

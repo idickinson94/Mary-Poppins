@@ -48,7 +48,7 @@ const Program = ({ dayOneData, dayTwoData, dayThreeData, dayFourData }) => {
             <h5>
               Day <span>01</span>
             </h5>
-            <h6></h6>
+            <h6>Thursday 26th August</h6>
           </div>
           <div className={styles.item_content}>
             {dayOneData.map((dayOne) => (
@@ -58,7 +58,7 @@ const Program = ({ dayOneData, dayTwoData, dayThreeData, dayFourData }) => {
                 </p>
                 {dayOne.tickets ? (
                   <p>
-                    | Tickets Required, purchase
+                    | More info
                     <Link href={dayOne.tickets}>
                       <a> here. </a>
                     </Link>
@@ -76,7 +76,7 @@ const Program = ({ dayOneData, dayTwoData, dayThreeData, dayFourData }) => {
             <h5>
               Day <span>02</span>
             </h5>
-            <h6></h6>
+            <h6>Friday 27th August</h6>
           </div>
           <div className={styles.item_content}>
             {dayTwoData.map((dayTwo) => (
@@ -86,8 +86,8 @@ const Program = ({ dayOneData, dayTwoData, dayThreeData, dayFourData }) => {
                 </p>
                 {dayTwo.tickets ? (
                   <p>
-                    | Tickets Required, purchase
-                    <Link href={daydayTwo.tickets}>
+                    | More info
+                    <Link href={dayTwo.tickets}>
                       <a> here. </a>
                     </Link>
                   </p>
@@ -121,7 +121,7 @@ const Program = ({ dayOneData, dayTwoData, dayThreeData, dayFourData }) => {
             <h5>
               Day <span>03</span>
             </h5>
-            <h6></h6>
+            <h6>Saturday 28th August</h6>
           </div>
           <div className={styles.item_content}>
             {dayThreeData.map((dayThree) => (
@@ -131,8 +131,8 @@ const Program = ({ dayOneData, dayTwoData, dayThreeData, dayFourData }) => {
                 </p>
                 {dayThree.tickets ? (
                   <p>
-                    | Tickets Required, purchase
-                    <Link href={daydaydayThree.tickets}>
+                    | More info
+                    <Link href={dayThree.tickets}>
                       <a> here. </a>
                     </Link>
                   </p>
@@ -174,7 +174,7 @@ const Program = ({ dayOneData, dayTwoData, dayThreeData, dayFourData }) => {
             <h5>
               Day <span>04</span>
             </h5>
-            <h6></h6>
+            <h6>Sunday 29th August</h6>
           </div>
           <div className={styles.item_content}>
             {dayFourData.map((dayFour) => (
@@ -184,7 +184,7 @@ const Program = ({ dayOneData, dayTwoData, dayThreeData, dayFourData }) => {
                 </p>
                 {dayFour.tickets ? (
                   <p>
-                    | Tickets Required, purchase
+                    | More info
                     <Link href={dayFour.tickets}>
                       <a> here. </a>
                     </Link>
