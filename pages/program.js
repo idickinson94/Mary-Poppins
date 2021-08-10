@@ -96,23 +96,6 @@ const Program = ({ dayOneData, dayTwoData, dayThreeData, dayFourData }) => {
                 )}
               </div>
             ))}
-            {/* <p>Bond Store, Bond Store, 9:30 - 3:30pm</p>
-            <p>
-              Story Bank, Story Bank Museum, 9:30 - 3:30pm | Bookings essential,
-              book{" "}
-              <Link href="https://storybank.ourfrasercoast.com.au/">
-                <a>here.</a>
-              </Link>{" "}
-            </p>
-            <p>Gatakers Artspace, Gatakers Artspace, 9.30am - 3:30pm</p>
-
-            <p>
-              Rock Me Up and Celebrate, Brolga Theatre, 1:30pm | Bookings
-              essential, book{" "}
-              <Link href="https://brolgat.sales.ticketsearch.com/sales/salesevent/12793">
-                <a>here.</a>
-              </Link>{" "}
-            </p> */}
           </div>
         </div>
 
@@ -141,31 +124,6 @@ const Program = ({ dayOneData, dayTwoData, dayThreeData, dayFourData }) => {
                 )}
               </div>
             ))}
-            {/* <p>
-              Gatakers Artspace, Gatakers Artspace, 9.30am - 4pm | register{" "}
-              <Link href="https://storybank.ourfrasercoast.com.au/events/event/460/upcycled-clothing-workshop-with-nancy-brown ">
-                <a>here.</a>
-              </Link>
-            </p>
-            <p>
-              Recycled Materials Workshop, Gatakers Artspace, 1pm - 4pm | Gold
-              Coin / $5
-            </p>
-            <p>
-              Charlotte's Web, Brolga Theatre, 10:30am - 11:25am | Bookings
-              essential, book{" "}
-              <Link href="https://brolga.ourfrasercoast.com.au/events/event/421/charlotte-s-web ">
-                <a>here.</a>
-              </Link>{" "}
-            </p>
-            <p>Bond Store, Bond Store, 9:30 - 3:30pm | $2.50 - $12.50 </p>
-            <p>
-              Story Bank, Story Bank Museum, 9:30 - 3:30pm | Bookings essential,
-              book{" "}
-              <Link href="https://storybank.ourfrasercoast.com.au/">
-                <a>here.</a>
-              </Link>
-            </p> */}
           </div>
         </div>
 
