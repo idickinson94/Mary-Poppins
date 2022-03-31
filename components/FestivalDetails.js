@@ -9,7 +9,7 @@ const FestivalDetails = () => {
       <div className={styles.details}>
         <div className={styles.card}>
           <h3> When & Where </h3>
-          <p>August 26th - 29th at the Portside Precint, Maryborough</p>
+          <p>Sunday, July 3rd at the Portside Precint, Maryborough</p>
         </div>
 
         <div className={styles.card}>
