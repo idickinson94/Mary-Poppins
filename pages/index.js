@@ -41,7 +41,7 @@ export default function Home() {
 
       <div className={styles.info}>
         <p>
-          This year’s Festival presents a four day program of storytelling for
+          This years Festival presents a four day program of storytelling for
           all ages through all art forms. From music concerts backstage and
           onstage at the Brolga to pop up performances in the Bond Store
           Basement. The signature event is the Mary Poppins Festival Day in the
